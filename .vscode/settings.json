@@ -1,16 +1,17 @@
 {
-    "phpcs.enable": true,
-    "phpcs.standard": "PSR2",
-    "phpcs.executablePath": "./vendor/bin/phpcs",
-    "phpcbf.enable": true,
-    "phpcbf.executablePath": "./vendor/bin/phpcbf",
-    "phpcbf.documentFormattingProvider": true,
-    "phpcbf.onsave": true,
-    "phpcbf.standard": "PSR2",
-    // Set the default
-    "editor.formatOnSave": true,
-    // Enable per-language
-    "[javascript]": {
-        "editor.formatOnSave": true
-    }
+	"phpcs.enable": true,
+	"phpcs.standard": "PSR2",
+	"phpcs.executablePath": "./vendor/bin/phpcs",
+	"phpcs.ignorePatterns": ["./vendor/*", "./node_moedules/*"],
+	"phpcbf.enable": true,
+	"phpcbf.executablePath": "./vendor/bin/phpcbf",
+	"phpcbf.documentFormattingProvider": true,
+	"phpcbf.onsave": true,
+	"phpcbf.standard": "PSR2",
+	// Set the default
+	"editor.formatOnSave": true,
+	// Enable per-language
+	"[javascript]": {
+		"editor.formatOnSave": true
+	}
 }
